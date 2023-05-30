@@ -24,6 +24,8 @@ const changeView = () => {
         console.log('sign_create_btn CLICKED!!');
 
         showSelectedView(SIGN_UP_VIEW);
+
+        createEvents();
     });
 
     let sign_modify_btn = document.querySelector('div.account_wrap a.modify');
@@ -38,6 +40,8 @@ const changeView = () => {
         console.log('sign_delete_btn CLICKED!!');
 
         showSelectedView(SIGN_DEL_VIEW);
+
+        deleteEvents();
     });
 
     let air_reserve_btn = document.querySelector('div.account_wrap a.airplane_reserve');
