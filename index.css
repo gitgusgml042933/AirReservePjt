@@ -109,10 +109,10 @@
 /* result_reserve */
 #wrap .result_reserve ul{
     text-align: right;
-    display: none;
+    /* display: none; */
 }
 #wrap  .result_reserve ul li{
-    float: right;
+    float: left;
     width: 200px;
     padding: 10px;
     margin: 1px;
