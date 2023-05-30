@@ -1,0 +1,12 @@
+#wrap{
+    width : 1000px;
+    margin: 0 auto;
+}
+
+
+
+#wrap .result_reserve ul li{
+    padding: 20px;
+    float: left;
+    border: 1px solid #00f;
+}

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="./common.css" rel="stylesheet" type="text/css">
+    <link href="./index.css" rel="stylesheet" type="text/css">
     <script src="./air_class.js"></script>
     <script src="./reserve_db.js"></script>
     <script src="./user_db.js"></script>
@@ -12,7 +14,7 @@
 </head>
 <body>
     
-    <div id="#wrap">
+    <div id="wrap">
 
         <div class="title_wrap">
             btc 비행기
@@ -31,7 +33,7 @@
             <br />
             <input type="text" name="u_gender" placeholder="남성 또는 여성">
             <br />
-            <input type="email" name="u_mail" placeholder="메일">
+            <input type="text" name="u_mail" placeholder="메일">
             <br />
             <input type="number" name="u_phone" placeholder="연락처">
             <br />
@@ -45,7 +47,7 @@
             <br />
             <input type="text" name="u_gender" placeholder="남성 또는 여성">
             <br />
-            <input type="email" name="u_mail" placeholder="메일">
+            <input type="text" name="u_mail" placeholder="메일">
             <br />
             <input type="number" name="u_phone" placeholder="연락처">
             <br />
@@ -70,7 +72,7 @@
             <br />
             <input type="text" name="r_name" placeholder="예약자 이름">
             <br />
-            <input type="email" name="r_mail" placeholder="예약자 메일">
+            <input type="text" name="r_mail" placeholder="예약자 메일">
             <br />
             <input type="text" name="r_phone" placeholder="예약자 연락처">
             <br />
@@ -91,9 +93,63 @@
             <button class="reserveBtn">예약하기</button>
         </div>
 
-        <div >
-
+        <div class="result_reserve">
+            <ul>
+                <li class="result_r_no">
+                    r_no
+                </li>
+                <li class="result_u_id">
+                    u_id
+                </li>
+                <li class="result_r_name">
+                    r_name
+                </li>
+            </ul>    
+            <ul>
+                <li class="result_r_mail">
+                    r_mail
+                </li>
+                <li class="result_r_phone">
+                    r_phone
+                </li>
+            </ul>
+            <ul>
+                <li class="result_depart_location_no">
+                    depart_location_no
+                </li>
+                <li class="result_depart_location_no">
+                    depart_location_no
+                </li>
+            </ul>
+            <ul>
+                <li class="result_arrival_location_no">
+                    arrival_location_no
+                </li>   
+                <li class="result_r_arrival_datetime">
+                    r_arrival_datetime
+                </li>
+            </ul>
+            <ul>
+                <li class="result_r_adult_cnt">
+                    r_adult_cnt
+                </li>
+                <li class="result_r_infant_cnt">
+                    r_infant_cnt
+                </li>
+                <li class="result_r_child_cnt">
+                    r_child_cnt
+                </li>
+            </ul>
+            <ul>
+                <li class="result_r_reg_date">
+                    r_reg_date
+                </li>
+                <li class="result_r_mod_date">
+                    r_mod_date
+                </li>
+            </ul>
         </div>
+
     </div>
 
 </body>
