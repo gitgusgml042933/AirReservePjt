@@ -12,8 +12,8 @@ const init = () => {
     initViews();
 
     changeView();
-
-    //booking_btn();
+    booking_btn();
+    search_booking_list_btn();
 }
 
 const changeView = () => {
