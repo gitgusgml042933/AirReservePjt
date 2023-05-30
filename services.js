@@ -34,7 +34,17 @@ const booking_btn = () => {
         let user_account = new User(u_id, r_name, r_mail, r_phone, depart_location_no, 
             r_depart_datetime, arrival_location_no, r_arrival_datetime, r_adult_cnt, r_infant_cnt, r_child_cnt);
         
-        // console.log(user_account);
+        u_id = document.querySelector('div.reserve_form_wrap input[name = "u_id"]').value = '';
+        r_name = document.querySelector('div.reserve_form_wrap input[name = "r_name"]').value = '';
+        r_mail = document.querySelector('div.reserve_form_wrap input[name = "r_mail"]').value = '';
+        r_phone = document.querySelector('div.reserve_form_wrap input[name = "r_phone"]').value = '';
+        depart_location_no = document.querySelector('div.reserve_form_wrap input[name = "depart_location_no"]').value = '';
+        r_depart_datetime = document.querySelector('div.reserve_form_wrap input[name = "r_depart_datetime"]').value = '';
+        arrival_location_no = document.querySelector('div.reserve_form_wrap input[name = "arrival_location_no"]').value = '';
+        r_arrival_datetime = document.querySelector('div.reserve_form_wrap input[name = "r_arrival_datetime"]').value = '';
+        r_adult_cnt = document.querySelector('div.reserve_form_wrap input[name = "r_adult_cnt"]').value = '';
+        r_infant_cnt = document.querySelector('div.reserve_form_wrap input[name = "r_infant_cnt"]').value = '';
+        r_child_cnt = document.querySelector('div.reserve_form_wrap input[name = "r_child_cnt"]').value = '';
 
 
     })
