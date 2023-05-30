@@ -1,0 +1,121 @@
+#wrap{
+    width : 1000px;
+    margin: 0 auto;
+    border: 1px solid #dadada;
+}
+#wrap .title_wrap{
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #dadada;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;  
+}
+
+/* account_wrap */
+#wrap > div.account_wrap{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #dadada;
+}
+#wrap > div.account_wrap a{
+    display: inline-block;
+    width: 100px;
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    text-align: center;
+}
+#wrap > div.account_wrap a:hover{
+    text-decoration: none;
+    background-color: #f8f8f8;
+}
+
+/* create_wrap */
+#wrap > div.create_wrap{
+    margin: 10px;
+    text-align: center;
+    display: none;
+}
+#wrap > div.create_wrap input{
+    width: 400px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+}
+#wrap > div.create_wrap input[type='button']{
+    width: 100px;
+    cursor: pointer;
+}
+
+/* modify_wrap */
+#wrap > div.modify_wrap{
+    margin: 10px;
+    text-align: center;
+    display: none;
+}
+#wrap > div.modify_wrap input{
+    width: 400px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+}
+#wrap > div.modify_wrap input[type='button']{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+/* delete_wrap */
+#wrap > div.delete_wrap{
+    margin: 10px;
+    text-align: center;
+    display: none;
+}
+#wrap > div.delete_wrap input{
+    width: 400px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+}
+#wrap > div.delete_wrap input[type='button']{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+/* reserve_form_wrap */
+#wrap > div.reserve_form_wrap{
+    text-align: center;
+    display: none;
+}
+#wrap > div.reserve_form_wrap input{
+    width: 400px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+}
+#wrap > div.reserve_form_wrap input[type='button']{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+/* result_reserve */
+#wrap .result_reserve ul{
+    text-align: right;
+    display: none;
+}
+#wrap  .result_reserve ul li{
+    float: right;
+    width: 200px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+}

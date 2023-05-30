@@ -3,4 +3,11 @@ let reserve_db = new Map();
 
 let reserve_dummy = new Reserve('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
 
-reserve_db.set('1', reserve_dummy);
+reserve_db.set('uni', reserve_dummy);
+
+
+
+
+
+
+
