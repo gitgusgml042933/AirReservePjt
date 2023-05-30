@@ -1,15 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
-    console.log('DOCUMENT READY!!');
 
-    init();
-});
-
-
-const init = () => {
-    console.log('init() READY!!');
-
-    booking_btn();
-}
 
 // 2. 비행기 예약하기
 const booking_btn = () => {

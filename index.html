@@ -7,8 +7,9 @@
     <script src="./air_class.js"></script>
     <script src="./reserve_db.js"></script>
     <script src="./user_db.js"></script>
-    <script src="./services.js"></script>
+    <script src="./viewChange.js"></script>
     <script src="./index.js"></script>
+    <script src="./services.js"></script>
  
     <title>Document</title>
 </head>
@@ -24,7 +25,15 @@
             <a class="create" href="#none">계정 생성</a>
             <a class=" modify" href="#none">계정 수정</a>
             <a class="delete" href="#none">계정 삭제</a>
+            <a class="airplane_reserve" href="#none">비행기 예약</a>
+            <a class="reserve_list" href="#none">예약 리스트</a>
+      
         </div>
+
+        <!-- <div class="reserve_wrap">
+            <button class="airplane_reserve">비행기 예약</button>
+            <button class="reserve_list">예약 리스트</button>
+        </div> -->
 
         <div class="create_wrap">
             <input type="text" name="u_id" placeholder="사용자 ID">
@@ -37,7 +46,7 @@
             <br />
             <input type="number" name="u_phone" placeholder="연락처">
             <br />
-            <button class="createBtn">생성하기</button>
+            <input type="button" value="createBtn">
         </div>
 
         <div class="modify_wrap">
@@ -51,7 +60,7 @@
             <br />
             <input type="number" name="u_phone" placeholder="연락처">
             <br />
-            <button class="modifyBtn">수정하기</button>
+            <input type="button" value="modifyBtn">
         </div>
 
         <div class="delete_wrap">
@@ -59,12 +68,7 @@
             <br />
             <input type="password" name="u_pw" placeholder="비밀번호">
             <br />
-            <button class="deleteBtn">삭제하기</button>
-        </div>
-
-        <div class="reserve_wrap">
-            <button class="airplane_reserve">비행기 예약</button>
-            <button class="reserve_list">예약 리스트</button>
+            <input type="button" value="reserve">
         </div>
 
         <div class="reserve_form_wrap">
@@ -90,7 +94,8 @@
             <br />
             <input type="number" name="r_child_cnt" placeholder="유아 수">
             <br />
-            <button class="reserveBtn">예약하기</button>
+            <input type="button" value="deleteBtn">
+
         </div>
 
         <div class="result_reserve">
